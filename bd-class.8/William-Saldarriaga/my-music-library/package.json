@@ -1,0 +1,21 @@
+{
+  "name": "my-music-library",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "William Saldarriaga",
+  "license": "ISC",
+  "description": "Tarea 7 - Modulo BD",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.5"
+  }
+}
